@@ -154,4 +154,4 @@ ipython_config.py
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
-*$py.class
+*$py.classzippedData/*.csv
