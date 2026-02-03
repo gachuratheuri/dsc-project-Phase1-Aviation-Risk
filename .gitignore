@@ -155,3 +155,55 @@ ipython_config.py
 __pycache__/
 *.py[cod]
 *$py.classzippedData/*.csv
+
+# ----------------------------
+# Phase-1 template MVP cleanup
+# ----------------------------
+
+# Keep the real README (we are NOT ignoring it)
+!README.md
+
+# Template-only / legacy folder (you showed it exists in template-mvp)
+master/
+
+# Template readme (you should eventually rename/move it, not keep both)
+TEMPLATE_README.md
+
+# Template slide deck files (keep YOUR final deck, usually named presentation.pdf)
+DS_Project_Presentation_Template.pdf
+# If DS_Project_Presentation.pdf is only the template placeholder, uncomment next line:
+# DS_Project_Presentation.pdf
+
+# Keep the required final presentation PDF (many curricula require this exact name)
+!presentation.pdf
+
+# ----------------------------
+# Data files (common course rule)
+# ----------------------------
+zippedData/**/*.csv
+zippedData/**/*.tsv
+zippedData/**/*.db
+zippedData/**/*.sqlite
+
+# ----------------------------
+# Jupyter / Python noise
+# ----------------------------
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+
+# ----------------------------
+# Environments / secrets
+# ----------------------------
+.env
+.venv/
+venv/
+env/
+
+# ----------------------------
+# OS / editor
+# ----------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
